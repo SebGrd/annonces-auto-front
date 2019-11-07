@@ -65,3 +65,46 @@
         </div>
     </div>
 </section>
+<section class="new-annonces">
+    <div class="container">
+        <h2>Les dernières annonces</h2>
+        <div class="slick-new-annonces">
+            <div class="slide-annonce">
+                <div class="card-annonce-home">
+                    <div class="card-annonce-home-image">
+                        <img src="<?= frontFolder('/img/annonce1.jpg'); ?>" alt="" class="img-fluid">
+                    </div>
+                    <div class="card-annonce-home-body">
+                        <h3>KIA CEED 3</h3>
+                        <h4>III 1.4 T-GDI 140 ISG ACTIVE DCT7</h4>
+                        <ul>
+                            <li><i class="fas fa-gas-pump"></i>Diesel</li>
+                            <li><i class="fas fa-cogs"></i> Manuelle</li>
+                            <li><i class="fas fa-road"></i> 19562 km</li>
+                            <li><i class="fas fa-calendar-alt"></i> 2018</li>
+                        </ul>
+                        <b>19 800 €</b>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-annonce">
+                <div class="card-annonce-home">
+                    <div class="card-annonce-home-image">
+                        <img src="<?= frontFolder('/img/annonce2.jpg'); ?>" alt="" class="img-fluid">
+                    </div>
+                    <div class="card-annonce-home-body">
+                        <h3>CITROËN C5 AIRCROSS</h3>
+                        <h4>1.5 BLUEHDI 130 S&S SHINE EAT8</h4>
+                        <ul>
+                            <li><i class="fas fa-gas-pump"></i>Diesel</li>
+                            <li><i class="fas fa-cogs"></i>Automatique</li>
+                            <li><i class="fas fa-road"></i>50 km</li>
+                            <li><i class="fas fa-calendar-alt"></i>2019</li>
+                        </ul>
+                        <b>29 900 €</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
