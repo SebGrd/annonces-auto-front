@@ -9958,6 +9958,11 @@ header .close-mobile {
   font-family: Lato, sans-serif;
 }
 
+@media (max-width: 1199px) {
+  .slider-search .recherche-home form .form-group {
+    margin-bottom: 4px;
+  }
+}
 @media (max-width: 991px) {
   header nav > ul li.level-1:before {
     top: 2px;
@@ -9965,6 +9970,12 @@ header .close-mobile {
   header nav > ul li.level-1 > a {
     font-size: 20px;
     padding: 10px 20px 10px 0;
+  }
+
+  .slider-search .recherche-home {
+    position: static;
+    width: auto;
+    margin: auto;
   }
 }
 @media (max-width: 767px) {
