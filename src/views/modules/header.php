@@ -15,13 +15,16 @@
 <header>
     <div class="container">
         <div class="row">
-            <div class="col-3">
+            <div class="col-6 col-sm-3">
                 <a href="/">
-                    <img src="<?= frontFolder('/img/logo.png') ?>" alt="Logo" class="img-fluid">
+                    <img src="<?= frontFolder('/img/logo.png') ?>" alt="Logo" class="img-fluid site-logo">
                 </a>
             </div>
-            <div class="col-9 d-flex align-items-center justify-content-end">
+            <div class="col-6 col-sm-9 d-flex align-items-center justify-content-end">
                 <nav>
+                    <div class="d-flex justify-content-end align-items-center">
+                     <button class="close-mobile"><i class="fas fa-times"></i></button>
+                    </div>
                     <ul>
                         <li class="level-1">
                             <a href="#" class="has-child">Annonces</a>
@@ -42,7 +45,8 @@
                         </li>
                     </ul>
                 </nav>
-                <a href="#">Se connecter</a>
+                <a href="#" class="login-link ac-line-bottom">Se connecter</a>
+                <button class="open-mobile"><i class="fas fa-bars"></i></button>
             </div>
         </div>
     </div>

@@ -1,4 +1,8 @@
+@import "partial/variables";
 @import "boostrap/bootstrap";
 @import "partial/custom-components";
+@import "partial/animations";
 @import "partial/header";
 @import "partial/home";
+@import "responsive/991";
+@import "responsive/767";
