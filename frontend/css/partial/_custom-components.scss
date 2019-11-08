@@ -29,3 +29,38 @@ $custom-aero-colors: (
     box-shadow: darken($value, 7%) 0 0 5px;
   }
 }
+
+
+
+//SLICK DOTS
+.slick-dots{
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  padding: 0;
+  margin: 20px 0 0 0;
+  list-style: none;
+  li{
+    position: relative;
+    margin: 0 8px;
+    &:after{
+      position: absolute;
+      content: '';
+      top: 50%;
+      right: 0;
+      left: 0;
+      height: 3px;
+      pointer-events: none;
+      background: $mediumgray;
+      transition: all 400ms ease;
+    }
+    &.slick-active{
+      &:after{
+        background: $secondary;
+      }
+    }
+    button{
+      opacity: 0;
+    }
+  }
+}

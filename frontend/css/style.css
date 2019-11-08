@@ -9818,6 +9818,36 @@ h3 {
   box-shadow: #3eb417 0 0 5px;
 }
 
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  padding: 0;
+  margin: 20px 0 0 0;
+  list-style: none;
+}
+.slick-dots li {
+  position: relative;
+  margin: 0 8px;
+}
+.slick-dots li:after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 0;
+  left: 0;
+  height: 3px;
+  pointer-events: none;
+  background: #777777;
+  transition: all 400ms ease;
+}
+.slick-dots li.slick-active:after {
+  background: #462eaa;
+}
+.slick-dots li button {
+  opacity: 0;
+}
+
 .ac-line-bottom {
   position: relative;
   text-decoration: none;
@@ -9944,6 +9974,9 @@ header .close-mobile {
   color: #462eaa;
 }
 
+.slider-search {
+  margin-bottom: 50px;
+}
 .slider-search .recherche-home {
   position: absolute;
   top: 0;
@@ -9956,6 +9989,61 @@ header .close-mobile {
 }
 .slider-search .recherche-home form {
   font-family: Lato, sans-serif;
+}
+
+.new-annonces h2 {
+  margin-bottom: 20px;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  border-bottom: 3px solid #462eaa;
+}
+.new-annonces .card-annonce-home {
+  margin: 0 8px;
+  font-family: Lato, sans-serif;
+  border-bottom: 4px solid #462eaa;
+}
+.new-annonces .card-annonce-home .card-annonce-home-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 200px;
+  min-height: 200px;
+  overflow: hidden;
+  background: #eeeeee;
+}
+.new-annonces .card-annonce-home .card-annonce-home-image img {
+  width: 100%;
+}
+.new-annonces .card-annonce-home .card-annonce-home-body {
+  padding-top: 15px;
+}
+.new-annonces .card-annonce-home .card-annonce-home-body h3 {
+  margin-bottom: 0;
+}
+.new-annonces .card-annonce-home .card-annonce-home-body h4 {
+  font-size: 16px;
+  color: #777777;
+}
+.new-annonces .card-annonce-home .card-annonce-home-body ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+.new-annonces .card-annonce-home .card-annonce-home-body ul li {
+  width: 50%;
+  margin-bottom: 6px;
+}
+.new-annonces .card-annonce-home .card-annonce-home-body ul li i {
+  width: 15px;
+}
+.new-annonces .card-annonce-home .card-annonce-home-body .price {
+  margin-top: 15px;
+  text-align: right;
+}
+.new-annonces .card-annonce-home .card-annonce-home-body .price b {
+  font-size: 26px;
 }
 
 @media (max-width: 1199px) {
