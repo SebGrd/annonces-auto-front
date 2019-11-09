@@ -1,29 +1,31 @@
 <footer>
-    <div class="container">
-        <div class="main-footer">
+    <div class="main-footer">
+        <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-3">
-                    <img src="<?= frontFolder('/img/logo.png') ?>" alt="" class="img-fluid">
+                    <img src="<?= frontFolder('/img/logo-alt.png') ?>" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-4 offset-1">
+                    <h4>Annonces auto</h4>
+                    <ul>
+                        <li><a href="#" class="ac-line-bottom ac-line-bottom-light">A propos du site annonces-auto.fr</a></li>
+                        <li><a href="#" class="ac-line-bottom ac-line-bottom-light">Se connecter / S'inscrire</a></li>
+                        <li><a href="#" class="ac-line-bottom ac-line-bottom-light">Contact</a></li>
+                    </ul>
                 </div>
                 <div class="col-12 col-sm-4">
                     <h4>Nous contacter</h4>
-                    <a href="#" class="btn btn-secondary">contact@annonces-auto.fr</a>
-                </div>
-                <div class="col-12 col-sm-5">
-                    <h4>Annonces auto</h4>
-                    <ul>
-                        <li><a href="#">A propos du site annonces-auto.fr</a></li>
-                        <li><a href="#">Se connecter / S'inscrire</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+                    <a href="#" class="btn btn-light">contact@annonces-auto.fr</a>
                 </div>
             </div>
         </div>
-        <div class="sub-footer">
+    </div>
+    <div class="sub-footer">
+        <div class="container">
             <ul>
-                <li><a href="#">Politiques de confidentialités</a></li>
-                <li><a href="#">Plan du site</a></li>
-                <li>Réalisation : <a href="#">Sébastien Gaudard</a></li>
+                <li><a href="#" class="ac-line-bottom">Politiques de confidentialités</a></li>
+                <li><a href="#" class="ac-line-bottom">Plan du site</a></li>
+                <li>Réalisation : <a href="#" class="ac-line-bottom">Sébastien Gaudard</a></li>
             </ul>
         </div>
     </div>

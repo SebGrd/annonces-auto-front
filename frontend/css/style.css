@@ -9876,6 +9876,14 @@ h3 {
   transform-origin: right;
 }
 
+.ac-line-bottom-light:before {
+  background: #ffffff;
+}
+
+.ac-line-bottom-secondary:before {
+  background: #462eaa;
+}
+
 header {
   padding: 8px 0;
 }
@@ -9976,6 +9984,52 @@ header .close-mobile {
   line-height: 1;
   outline: none;
   color: #462eaa;
+}
+
+footer .main-footer {
+  background: #462eaa;
+  padding: 30px 0;
+  font-family: Lato, sans-serif;
+  color: white;
+}
+footer .main-footer h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #777777;
+}
+footer .main-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer .main-footer ul li a {
+  color: white;
+  font-weight: bold;
+}
+footer .sub-footer {
+  padding: 10px 0;
+  background: #eeeeee;
+  text-align: center;
+  font-family: Lato, sans-serif;
+}
+footer .sub-footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer .sub-footer ul li {
+  margin-right: 30px;
+}
+footer .sub-footer ul li:last-child {
+  margin-right: 0;
+}
+footer .sub-footer ul li a {
+  color: black;
+  font-weight: bold;
 }
 
 .slider-search {
