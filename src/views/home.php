@@ -37,17 +37,20 @@
                         <div class="form-group">
                             <label>Type de boite</label>
                             <div class="form-check">
-                                <input type="radio" class="form-check-input" name="typeBoite" id="boiteM" value="Manuelle">
+                                <input type="radio" class="form-check-input" name="typeBoite" id="boiteM"
+                                       value="Manuelle">
                                 <label for="boiteM" class="form-check-label">Manuelle</label>
                             </div>
                             <div class="form-check">
-                                <input type="radio" class="form-check-input" name="typeBoite" id="boiteA" value="Automatique">
+                                <input type="radio" class="form-check-input" name="typeBoite" id="boiteA"
+                                       value="Automatique">
                                 <label for="boiteA" class="form-check-label">Automatique</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="chevaux">Puissance DIN (min)</label>
-                            <input type="range" min="1" max="100" name="ch" value="50" class="form-control-range" id="chevaux">
+                            <input type="range" min="1" max="100" name="ch" value="50" class="form-control-range"
+                                   id="chevaux">
                         </div>
                         <div class="form-group">
                             <label for="portes">Nombre de portes</label>
@@ -115,9 +118,9 @@
                         <h4>III 1.4 T-GDI 140 ISG ACTIVE DCT7</h4>
                         <ul>
                             <li><i class="fas fa-gas-pump"></i>Diesel</li>
-                            <li><i class="fas fa-cogs"></i> Manuelle</li>
-                            <li><i class="fas fa-road"></i> 19562 km</li>
-                            <li><i class="fas fa-calendar-alt"></i> 2018</li>
+                            <li><i class="fas fa-cogs"></i>Manuelle</li>
+                            <li><i class="fas fa-road"></i>19562 km</li>
+                            <li><i class="fas fa-calendar-alt"></i>2018</li>
                         </ul>
                         <p class="price"><b>19 800 €</b></p>
                     </div>
@@ -133,14 +136,64 @@
                         <h4>III 1.4 T-GDI 140 ISG ACTIVE DCT7</h4>
                         <ul>
                             <li><i class="fas fa-gas-pump"></i>Diesel</li>
-                            <li><i class="fas fa-cogs"></i> Manuelle</li>
-                            <li><i class="fas fa-road"></i> 19562 km</li>
-                            <li><i class="fas fa-calendar-alt"></i> 2018</li>
+                            <li><i class="fas fa-cogs"></i>Manuelle</li>
+                            <li><i class="fas fa-road"></i>19562 km</li>
+                            <li><i class="fas fa-calendar-alt"></i>2018</li>
                         </ul>
                         <p class="price"><b>19 800 €</b></p>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="large-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="info-body">
+                    <h3>Lorem ipsum</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores distinctio dolore esse id
+                        in nihil nisi perferendis quasi quibusdam, quos repudiandae rerum tempore unde vel! Aspernatur
+                        consequatur eos tempora.</p>
+                    <a href="#" class="btn btn-secondary">Déposer une annonce</a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="info-img-container">
+                    <img src="<?= frontFolder('/img/camions.jpg'); ?>" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="stats">
+    <div class="container">
+        <div class="stats-list">
+            <div class="row">
+                <div class="col-12 col-sm-4">
+                    <div class="stat">
+                        <span class="number">6591</span>
+                        <span class="label">Annonces postées</span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="stat">
+                        <span class="number">4213</span>
+                        <span class="label">Voitures différentes</span>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <div class="stat">
+                        <span class="number">23</span>
+                        <span class="label">Marques</span>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>

@@ -33,6 +33,11 @@ $custom-aero-colors: (
 
 
 //SLICK DOTS
+.slick-initialized{
+  .slick-slide{
+    outline: none;
+  }
+}
 .slick-dots{
   display: flex;
   justify-content: center;

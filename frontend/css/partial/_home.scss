@@ -16,6 +16,7 @@
 }
 
 .new-annonces{
+  margin-bottom: 50px;
   h2{
     margin-bottom: 20px;
     font-family: Lato, sans-serif;
@@ -26,6 +27,7 @@
     margin: 0 8px;
     font-family: Lato, sans-serif;
     border-bottom: 4px solid $secondary;
+    outline: none;
     .card-annonce-home-image{
       display: flex;
       align-items: center;
@@ -57,7 +59,7 @@
           width: 50%;
           margin-bottom: 6px;
           i{
-            width: 15px;
+            width: 30px;
           }
         }
       }
@@ -67,6 +69,43 @@
         b{
           font-size: 26px;
         }
+      }
+    }
+  }
+}
+
+.large-info{
+  background: $lightgray;
+  margin-bottom: 50px;
+  .info-body{
+    padding: 20px 15px 0 0;
+    font-family: Lato, sans-serif;
+    h3{
+      font-size: 26px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.stats{
+  margin-bottom: 50px;
+  .stats-list{
+    .stat{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .number{
+        font-family: Lato, sans-serif;
+        color: $secondary;
+        font-size: 40px;
+        line-height: 1;
+      }
+      .label{
+        font-family: Lato, sans-serif;
+        font-weight: bold;
       }
     }
   }

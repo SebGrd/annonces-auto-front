@@ -9818,6 +9818,10 @@ h3 {
   box-shadow: #3eb417 0 0 5px;
 }
 
+.slick-initialized .slick-slide {
+  outline: none;
+}
+
 .slick-dots {
   display: flex;
   justify-content: center;
@@ -9991,6 +9995,9 @@ header .close-mobile {
   font-family: Lato, sans-serif;
 }
 
+.new-annonces {
+  margin-bottom: 50px;
+}
 .new-annonces h2 {
   margin-bottom: 20px;
   font-family: Lato, sans-serif;
@@ -10001,6 +10008,7 @@ header .close-mobile {
   margin: 0 8px;
   font-family: Lato, sans-serif;
   border-bottom: 4px solid #462eaa;
+  outline: none;
 }
 .new-annonces .card-annonce-home .card-annonce-home-image {
   display: flex;
@@ -10036,7 +10044,7 @@ header .close-mobile {
   margin-bottom: 6px;
 }
 .new-annonces .card-annonce-home .card-annonce-home-body ul li i {
-  width: 15px;
+  width: 30px;
 }
 .new-annonces .card-annonce-home .card-annonce-home-body .price {
   margin-top: 15px;
@@ -10044,6 +10052,41 @@ header .close-mobile {
 }
 .new-annonces .card-annonce-home .card-annonce-home-body .price b {
   font-size: 26px;
+}
+
+.large-info {
+  background: #eeeeee;
+  margin-bottom: 50px;
+}
+.large-info .info-body {
+  padding: 20px 15px 0 0;
+  font-family: Lato, sans-serif;
+}
+.large-info .info-body h3 {
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}
+
+.stats {
+  margin-bottom: 50px;
+}
+.stats .stats-list .stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stats .stats-list .stat .number {
+  font-family: Lato, sans-serif;
+  color: #462eaa;
+  font-size: 40px;
+  line-height: 1;
+}
+.stats .stats-list .stat .label {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
 }
 
 @media (max-width: 1199px) {
