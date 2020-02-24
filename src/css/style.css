@@ -9789,6 +9789,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  font-family: Asap, sans-serif;
+}
+
 .info-btn {
   display: inline-flex;
   align-items: center;
@@ -9918,7 +9922,7 @@ header nav > ul li.level-1:hover ul.nav-dropdown {
 header nav > ul li.level-1 > a {
   display: inline-block;
   color: black;
-  font-family: Lato, sans-serif;
+  font-family: Asap, sans-serif;
   font-size: 26px;
   text-transform: uppercase;
   text-decoration: none;
@@ -9953,7 +9957,7 @@ header nav > ul li.level-1 ul.nav-dropdown li.separated {
 }
 header nav > ul li.level-1 ul.nav-dropdown li a {
   color: black;
-  font-family: Lato, sans-serif;
+  font-family: Asap, sans-serif;
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
@@ -9989,7 +9993,7 @@ header .close-mobile {
 footer .main-footer {
   background: #462eaa;
   padding: 30px 0;
-  font-family: Lato, sans-serif;
+  font-family: Asap, sans-serif;
   color: white;
 }
 footer .main-footer h4 {
@@ -10011,7 +10015,7 @@ footer .sub-footer {
   padding: 10px 0;
   background: #eeeeee;
   text-align: center;
-  font-family: Lato, sans-serif;
+  font-family: Asap, sans-serif;
 }
 footer .sub-footer ul {
   display: flex;
@@ -10046,7 +10050,7 @@ footer .sub-footer ul li a {
   border-left: 6px solid #462eaa;
 }
 .slider-search .recherche-home form {
-  font-family: Lato, sans-serif;
+  font-family: Asap, sans-serif;
 }
 
 .new-annonces {
@@ -10054,13 +10058,13 @@ footer .sub-footer ul li a {
 }
 .new-annonces h2 {
   margin-bottom: 20px;
-  font-family: Lato, sans-serif;
+  font-family: Asap, sans-serif;
   font-weight: bold;
   border-bottom: 3px solid #462eaa;
 }
 .new-annonces .card-annonce-home {
   margin: 0 8px;
-  font-family: Lato, sans-serif;
+  font-family: Asap, sans-serif;
   border-bottom: 4px solid #462eaa;
   outline: none;
 }
@@ -10114,7 +10118,7 @@ footer .sub-footer ul li a {
 }
 .large-info .info-body {
   padding: 20px 15px 0 0;
-  font-family: Lato, sans-serif;
+  font-family: Asap, sans-serif;
 }
 .large-info .info-body h3 {
   font-size: 26px;
@@ -10133,13 +10137,13 @@ footer .sub-footer ul li a {
   align-items: center;
 }
 .stats .stats-list .stat .number {
-  font-family: Lato, sans-serif;
+  font-family: Asap, sans-serif;
   color: #462eaa;
   font-size: 40px;
   line-height: 1;
 }
 .stats .stats-list .stat .label {
-  font-family: Lato, sans-serif;
+  font-family: Asap, sans-serif;
   font-weight: bold;
 }
 

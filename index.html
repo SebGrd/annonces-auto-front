@@ -1,3 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Annonces Auto</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/lib/slick/slick.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-3">
+                <a href="/">
+                    <img src="src/img/logo.png" alt="Logo" class="img-fluid site-logo">
+                </a>
+            </div>
+            <div class="col-6 col-sm-9 d-flex align-items-center justify-content-end">
+                <nav>
+                    <div class="d-flex justify-content-end align-items-center">
+                        <button class="close-mobile"><i class="fas fa-times"></i></button>
+                    </div>
+                    <ul>
+                        <li class="level-1">
+                            <a href="#" class="has-child">Annonces</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="#">Véhicule Diesel</a></li>
+                                <li><a href="#">Véhicule Essence</a></li>
+                                <li><a href="#">Véhicule Electrique</a></li>
+                                <li class="separated"><a href="/liste-annonces" class="font-weight-bold">Toutes les annonces</a></li>
+                            </ul>
+                        </li>
+                        <li class="level-1">
+                            <a href="#" class="has-child">Vendre</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="#" class="font-weight-bold">Déposer une annonce</a></li>
+                                <li class="separated"><a href="#">Calculer les chevaux fiscaux de son véhicule</a></li>
+                                <li><a href="#">A quel Crit'air mon véhicule est-il éligible ?</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#" class="login-link ac-line-bottom">Se connecter</a>
+                <button class="open-mobile"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </div>
+</header>
+
+
 <section class="slider-search">
     <div class="container">
         <div class="row">
@@ -5,10 +60,10 @@
                 <!--        1600x800-->
                 <div class="slick-home">
                     <div class="single-slide-1">
-                        <img src="<?= frontFolder('/img/slider-home3.jpg') ?>" alt="Image slider" class="img-fluid">
+                        <img src="src/img/slider-home3.jpg" alt="Image slider" class="img-fluid">
                     </div>
                     <div class="single-slide-2">
-                        <img src="<?= frontFolder('/img/slider-home2.jpg') ?>" alt="Image slider" class="img-fluid">
+                        <img src="src/img/slider-home2.jpg" alt="Image slider" class="img-fluid">
                     </div>
                 </div>
 
@@ -25,8 +80,8 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="marque">Energie</label>
-                            <select name="marqueVoiture" id="marque" class="form-control">
+                            <label for="energie">Energie</label>
+                            <select name="marqueVoiture" id="energie" class="form-control">
                                 <option value="1">Diesel</option>
                                 <option value="2">Essence</option>
                                 <option value="3">Electrique</option>
@@ -75,7 +130,7 @@
             <div class="slide-annonce">
                 <div class="card-annonce-home">
                     <div class="card-annonce-home-image">
-                        <img src="<?= frontFolder('/img/annonce1.jpg'); ?>" alt="" class="img-fluid">
+                        <img src="src/img/annonce1.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="card-annonce-home-body">
                         <h3>KIA CEED 3</h3>
@@ -93,7 +148,7 @@
             <div class="slide-annonce">
                 <div class="card-annonce-home">
                     <div class="card-annonce-home-image">
-                        <img src="<?= frontFolder('/img/annonce2.jpg'); ?>" alt="" class="img-fluid">
+                        <img src="src/img/annonce2.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="card-annonce-home-body">
                         <h3>CITROËN C5 AIRCROSS</h3>
@@ -111,7 +166,7 @@
             <div class="slide-annonce">
                 <div class="card-annonce-home">
                     <div class="card-annonce-home-image">
-                        <img src="<?= frontFolder('/img/slider-home3.jpg'); ?>" alt="" class="img-fluid">
+                        <img src="src/img/slider-home3.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="card-annonce-home-body">
                         <h3>KIA CEED 3</h3>
@@ -129,7 +184,7 @@
             <div class="slide-annonce">
                 <div class="card-annonce-home">
                     <div class="card-annonce-home-image">
-                        <img src="<?= frontFolder('/img/slider-home2.jpg'); ?>" alt="" class="img-fluid">
+                        <img src="src/img/slider-home2.jpg" alt="" class="img-fluid">
                     </div>
                     <div class="card-annonce-home-body">
                         <h3>KIA CEED 3</h3>
@@ -162,7 +217,7 @@
             </div>
             <div class="col-12 col-sm-6">
                 <div class="info-img-container">
-                    <img src="<?= frontFolder('/img/camions.jpg'); ?>" alt="" class="img-fluid">
+                    <img src="src/img/camions.jpg" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -197,3 +252,46 @@
         </div>
     </div>
 </section>
+
+
+
+<footer>
+    <div class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <img src="src/img/logo-alt.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-4 offset-1">
+                    <h4>Annonces auto</h4>
+                    <ul>
+                        <li><a href="#" class="ac-line-bottom ac-line-bottom-light">A propos du site annonces-auto.fr</a></li>
+                        <li><a href="#" class="ac-line-bottom ac-line-bottom-light">Se connecter / S'inscrire</a></li>
+                        <li><a href="#" class="ac-line-bottom ac-line-bottom-light">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <h4>Nous contacter</h4>
+                    <a href="#" class="btn btn-light">contact@annonces-auto.fr</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub-footer">
+        <div class="container">
+            <ul>
+                <li><a href="#" class="ac-line-bottom">Politiques de confidentialités</a></li>
+                <li><a href="#" class="ac-line-bottom">Plan du site</a></li>
+                <li>Réalisation : <a href="https://sebg.dev/portfolio" class="ac-line-bottom">Sébastien Gaudard</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="src/lib/jquery/jquery-3.4.1.min.js"></script>
+<script src="src/lib/slick/slick.min.js"></script>
+<script src="src/js/slicks.js"></script>
+<script src="https://kit.fontawesome.com/683c5a95c2.js" crossorigin="anonymous"></script>
+<script src="src/js/app.js"></script>
+</body>
+</html>
