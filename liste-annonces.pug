@@ -1,0 +1,40 @@
+extends pug-layout/_layout
+block content
+    section.recherche-liste
+        .container
+            h1 Liste des annonces
+            form(action='#')
+                .form-group
+                    label(for='marque') Marque
+                    select#marque.form-control(name='marque')
+                        option(value='1') Cito&euml;n
+                        option(value='2') Peugeot
+                        option(value='3') KIA
+                        option(value='4') Audi
+                        option(value='5') Tesla
+                .form-group
+                    label(for='marque') Energie
+                    select#marque.form-control(name='marqueVoiture')
+                        option(value='1') Diesel
+                        option(value='2') Essence
+                        option(value='3') Electrique
+                        option(value='4') GPL
+                        option(value='5') Hydrog&egrave;ne
+                .form-group
+                    label Type de boite
+                    .form-check
+                        input#boiteM.form-check-input(type='radio' name='typeBoite' value='Manuelle')
+                        label.form-check-label(for='boiteM') Manuelle
+                    .form-check
+                        input#boiteA.form-check-input(type='radio' name='typeBoite' value='Automatique')
+                        label.form-check-label(for='boiteA') Automatique
+                .form-group
+                    label(for='chevaux') Puissance DIN (min)
+                    input#chevaux.form-control-range(type='range' min='1' max='100' name='ch' value='50')
+                .form-group
+                    label(for='portes') Nombre de portes
+                    select#portes.form-control(name='nbPortes')
+                        option(value='3') 3
+                        option(value='5') 5
+                .d-flex.align-items-center.justify-content-end
+                    button.btn.btn-secondary(type='submit') Rechercher

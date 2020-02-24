@@ -1,0 +1,44 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+    meta(http-equiv='X-UA-Compatible' content='ie=edge')
+    title Annonces Auto
+    link(href='https://fonts.googleapis.com/css?family=Asap:400,500,600,700&display=swap' rel='stylesheet')
+    link(rel='stylesheet' href='src/lib/slick/slick.css')
+    link(rel='stylesheet' href='src/css/style.css')
+header
+    .container
+        .row
+            .col-6.col-sm-3
+                a(href='/')
+                    img.img-fluid.site-logo(src='src/img/logo.png' alt='Logo')
+            .col-6.col-sm-9.d-flex.align-items-center.justify-content-end
+                nav
+                    .d-flex.justify-content-end.align-items-center
+                        button.close-mobile
+                            i.fas.fa-times
+                    ul
+                        li.level-1
+                            a.has-child(href='#') Annonces
+                            ul.nav-dropdown
+                                li
+                                    a(href='#') V&eacute;hicule Diesel
+                                li
+                                    a(href='#') V&eacute;hicule Essence
+                                li
+                                    a(href='#') V&eacute;hicule Electrique
+                                li.separated
+                                    a.font-weight-bold(href='/liste-annonces') Toutes les annonces
+                        li.level-1
+                            a.has-child(href='#') Vendre
+                            ul.nav-dropdown
+                                li
+                                    a.font-weight-bold(href='#') D&eacute;poser une annonce
+                                li.separated
+                                    a(href='#') Calculer les chevaux fiscaux de son v&eacute;hicule
+                                li
+                                    a(href='#') A quel Crit&apos;air mon v&eacute;hicule est-il &eacute;ligible ?
+                a.login-link.ac-line-bottom(href='#') Se connecter
+                button.open-mobile
+                    i.fas.fa-bars
