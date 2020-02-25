@@ -10148,8 +10148,16 @@ footer .sub-footer ul li a {
 }
 
 .liste-resultat .resultat {
+  margin-bottom: 30px;
   padding: 15px;
   border: 1px solid #dee2e6;
+}
+.liste-resultat .resultat .resultat-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #e9ecef;
 }
 .liste-resultat .resultat .resultat-title {
   font-size: 24px;
@@ -10159,6 +10167,35 @@ footer .sub-footer ul li a {
   font-size: 18px;
   color: #777777;
 }
+.liste-resultat .resultat ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-right: 100px;
+  margin-bottom: 15px;
+}
+.liste-resultat .resultat ul > * {
+  width: 50%;
+}
+.liste-resultat .resultat ul li {
+  display: flex;
+  align-items: center;
+}
+.liste-resultat .resultat ul li i {
+  width: 30px;
+  text-align: center;
+}
+.liste-resultat .resultat .resultat-price {
+  margin-top: 30px;
+  font-size: 30px;
+  line-height: 1;
+}
+
 @media (max-width: 1199px) {
   .slider-search .recherche-home form .form-group {
     margin-bottom: 4px;

@@ -4,7 +4,8 @@ block content
         .container
             h1 Liste des annonces
             .row
-                .col-3
+
+                .col-3.mb-5
                     .recherche-sidebar.border.p-2.rounded
                         form(action='#')
                             .form-group
@@ -41,6 +42,7 @@ block content
                                     option(value='5') 5
                             .d-flex.align-items-center.justify-content-center
                                 button.btn.btn-secondary(type='submit') Rechercher
+
                 .col-9.liste-resultat
                     h2 125 résultats :
                     .resultat
@@ -65,5 +67,55 @@ block content
                                         li
                                             i.fas.fa-calendar-alt
                                             | 2019
-                                    p.price
-                                        b 29 900 &euro;
+                                    p.resultat-price
+                                        b 29 900 €
+
+                    .resultat
+                        .row
+                            .col-4
+                                .resultat-img
+                                    img.img-fluid(src='src/img/annonce1.jpg' alt='')
+                            .col-8
+                                .resultat-content
+                                    h3.resultat-title KIA CEED 3
+                                    h4.resultat-subtitle III 1.4 T-GDI 140 ISG ACTIVE DCT7
+                                    ul
+                                        li
+                                            i.fas.fa-gas-pump
+                                            | Diesel
+                                        li
+                                            i.fas.fa-cogs
+                                            | Manuelle
+                                        li
+                                            i.fas.fa-road
+                                            | 19562 km
+                                        li
+                                            i.fas.fa-calendar-alt
+                                            | 2018
+                                    p.resultat-price
+                                        b 19 800 €
+
+                    .resultat
+                        .row
+                            .col-4
+                                .resultat-img
+                                    img.img-fluid(src='src/img/slider-home3.jpg' alt='')
+                            .col-8
+                                .resultat-content
+                                    h3.resultat-title CITROËN C5 AIRCROSS
+                                    h4.resultat-subtitle 1.5 BLUEHDI 130 S&amp;S SHINE EAT8
+                                    ul
+                                        li
+                                            i.fas.fa-gas-pump
+                                            | Diesel
+                                        li
+                                            i.fas.fa-cogs
+                                            | Automatique
+                                        li
+                                            i.fas.fa-road
+                                            | 50 km
+                                        li
+                                            i.fas.fa-calendar-alt
+                                            | 2019
+                                    p.resultat-price
+                                        b 29 900 €
